@@ -45,7 +45,7 @@ csvlook exoplanets_simplified.csv
 # Filtrer les exoplanètes découvertes après 2020
 csvgrep -c disc_year -m "2020" exoplanets_simplified.csv
 ---
-
+###Ajout du Dashboard
 ## 🌌 Dashboard Interactif
 
 En plus du CSV, ce projet inclut un **dashboard interactif** pour explorer les exoplanètes de manière visuelle et intuitive.  
