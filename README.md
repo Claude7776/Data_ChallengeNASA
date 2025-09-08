@@ -38,22 +38,30 @@ Ce dépôt contient une version **simplifiée et prête à explorer** du dataset
 ## 🚀 Exemple d'utilisation
 
 ### Dans le terminal
-```bash
+
 # Affiche le CSV sous forme de tableau lisible
 csvlook exoplanets_simplified.csv
 
 # Filtrer les exoplanètes découvertes après 2020
 csvgrep -c disc_year -m "2020" exoplanets_simplified.csv
 ---
-###Ajout du Dashboard
+
 ## 🌌 Dashboard Interactif
 
-En plus du CSV, ce projet inclut un **dashboard interactif** pour explorer les exoplanètes de manière visuelle et intuitive.  
+En plus du CSV, ce projet inclut un dashboard interactif pour explorer les exoplanètes de manière visuelle et intuitive.
 
-### Fonctionnalités
-- Visualisation graphique des exoplanètes et de leurs étoiles  
-- Graphiques dynamiques et interactifs  
-- Filtrage et organisation des données par année, rayon, masse, etc.  
+Fonctionnalités
 
-### Technologies
-HTML | CSS | JavaScript | Chart.js | Miller 
+`Visualisation graphique des exoplanètes et de leurs étoiles
+
+`Graphiques dynamiques et interactifs
+
+`Filtrage et organisation des données par année, rayon, masse, etc.
+
+## Technologies utilisées
+
+`HTML / CSS / JavaScript
+
+`Chart.js pour les graphiques
+
+`Miller pour le traitement CSV/JSON
